@@ -1,0 +1,40 @@
+import React, { useContext } from 'react';
+import LevelContext from '../../ContextAPI/Context';
+import { toast } from 'react-toastify';
+
+const AddCartCard = ({data}) => {
+
+    const { product_id, product_title, product_image, category, price, description, specification, availability, rating, other_field} = data
+    const { detailsCard, setDetailsCard } = useContext(LevelContext);
+    const { WishlistDatas, setWishlistData } = useContext(LevelContext);
+    const removeItem= (id)=>{
+      const remove = detailsCard.filter((removeData)=>  removeData.product_id !== id)
+      const wLRemove = WishlistDatas.filter((removeData)=>  removeData.product_id !== id)
+      setWishlistData(wLRemove)
+      setDetailsCard(remove)
+      toast.success(`The item  has been removed successfully.`)
+    }
+    return (
+        <div>
+           <div className='flex flex-col md:flex-row items-center md:h-60 shadow-md bg-white rounded-lg w-11/12 lg:w-7/12 mx-auto  p-4 gap-6 relative'>
+                <div className='h-[150px] bg-card-bg p-3 rounded-lg'>
+                    <img className='h-full' src={product_image} alt="" />
+                </div>
+              <div className=' flex-1  md:relative'>
+              <div className='space-y-6 '>
+                    <h4 className='text-2xl font-semibold mb-3'>{product_title}</h4>
+                    {
+                        specification.map(s => <span className='text-lg text-[#09080F99]'>{s},</span>)
+                    }
+                    <p className='text-xl font-semibold'>Price: ${price}</p>
+                </div>
+                <div onClick={()=>removeItem(product_id)} className='cursor-pointer  top-6 right-6 md:-top-6 absolute flex items-center justify-center w-8 h-8 border border-red-600 rounded-full'>
+                    <p className='text-red-600 text-lg'>X</p>
+                </div>
+              </div>
+           </div>
+        </div>
+    );
+};
+
+export default AddCartCard;

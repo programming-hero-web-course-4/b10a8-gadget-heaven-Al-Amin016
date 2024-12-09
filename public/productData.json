@@ -1,0 +1,251 @@
+[
+  {
+    "product_id": "GHT001",
+    "product_title": "HP Laptop 15-fd0029nx",
+    "product_image": "https://i.ibb.co/SdsnbvW/71l-Fdrzc-Bn-L-AC-SX679-removebg-preview.png",
+    "brand": "Hp",
+    "category": "Laptops",
+    "price": 999,
+    "description": "Enjoy the sun and your favorite content with this anti-glare panel.",
+    "specification": [
+      "13.3-inch Retina display",
+      "Intel Core i5",
+      "8GB RAM",
+      "256GB SSD storage"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "other_field": "Best for students"
+  },
+
+    {
+      "product_id": "GHT002",
+      "product_title": "Gaming Desktop X1",
+      "product_image": "https://i.ibb.co/KKB4hpC/png-clipart-intel-core-i7-gaming-computer-desktop-computers-desktop-pc-electronics-computer-removebg.png",
+      "brand": "Dell",
+      "category": "Computers",
+      "price": 1499,
+      "description": "High-performance gaming desktop with RGB lighting and powerful GPU.",
+      "specification": [
+        "Intel i7 processor",
+        "NVIDIA GTX 3070",
+        "16GB RAM"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "GHT003",
+      "product_title": "Tablet Pro",
+      "product_image": " https://i.ibb.co/Sx7F2Px/Tablet-Pro-removebg-preview-min.png",
+      "brand": "iPhone",
+      "category": "Phones",
+      "price": 599,
+      "description": "Portable tablet with vibrant display, perfect for work and entertainment.",
+      "specification": [
+        "10.5-inch Retina display",
+        "128GB storage",
+        "8MP camera"
+      ],
+      "availability": false,
+      "rating": 4.4
+    },
+    {
+      "product_id": "GHT004",
+      "product_title": "Smartphone X",
+      "product_image": "https://i.ibb.co/CBNbGJG/Smartphone-X-removebg-preview-min.png",
+      "brand": "iPhone",
+      "category": "Phones",
+      "price": 699,
+      "description": "Next-gen smartphone with stunning camera and fast processor.",
+      "specification": [
+        "6.1-inch OLED display",
+        "128GB storage",
+        "12MP dual camera"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "GHT005",
+      "product_title": "Google Pixel 9 Pro XL 5G",
+      "product_image": "https://i.ibb.co/dQj5Rtn/Google-Pixel-9-Pro-XL-5-G.png",
+      "brand": "pixel",
+      "category": "Phones",
+      "price": 899,
+      "description": "5G-enabled smartphone with large screen and exceptional battery life.",
+      "specification": [
+        "6.7-inch AMOLED display",
+        "256GB storage",
+        "Dual 12MP rear camera"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "GHT006",
+      "product_title": "Apple iPhone 16",
+      "product_image": " https://i.ibb.co/DrMpY6g/Apple-i-Phone-16-removebg-preview-min.png",
+      "brand": "iPhone",
+      "category": "Phones",
+      "price": 299,
+      "description": "Affordable smartphone with all essential features.",
+      "specification": [
+        "5.8-inch LCD display",
+        "64GB storage",
+        "Single-lens camera"
+      ],
+      "availability": false,
+      "rating": 4.2
+    },
+    {
+      "product_id": "GHT007",
+      "product_title": "Apple Watch Series 10 GPS",
+      "product_image": "https://i.ibb.co/Jtb86pF/Apple-Watch-Series-10-GPS-removebg-preview-min.png.png",
+      "brand": "Appal",
+      "category": "Smart Watches",
+      "price": 249,
+      "description": "Smartwatch with health tracking and customizable watch faces.",
+      "specification": [
+        "1.5-inch AMOLED display",
+        "Heart rate monitor",
+        "GPS"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "GHT008",
+      "product_title": "Apple Watch SE (2nd Gen)",
+      "product_image": "https://i.ibb.co/qFkgTYR/Apple-Watch-SE-2nd-Gen-GPS-removebg-preview-min.png.png",
+      "brand": "Appal",
+      "category": "Smart Watches",
+      "price": 199,
+      "description": "Fitness-focused smartwatch with waterproof design and extended battery life.",
+      "specification": [
+        "1.3-inch OLED display",
+        "Steps and calorie counter",
+        "Waterproof up to 50m"
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": "GHT009",
+      "product_title": "PINREK 268W Charging ",
+      "product_image": "https://i.ibb.co/vwpDqcC/Google-Pixel-9-Pro-XL-5-G-removebg-preview-min.png",
+      "brand": "Normal",
+      "category": "Accessories",
+      "price": 59,
+      "description": "High-speed wall charger with 268W output, compatible with all devices.",
+      "specification": [
+        "USB-C port",
+        "268W output",
+        "Compatible with USB-PD"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "GHT010",
+      "product_title": "IMPUVERS Wireless Charger",
+      "product_image": "https://i.ibb.co/q9MmmvP/61j-SBvq-NNNL-AC-SX300-SY300-QL70-ML2-removebg-preview.png",
+      "brand": "Normal",
+      "category": "Accessories",
+      "price": 79,
+      "description": " The 3 in 1 wireless charger station can charge for phone, apple watch and Airpods.",
+      "specification": [
+        "10W output",
+        "Qi-certified",
+        "Non-slip surface"
+      ],
+      "availability": false,
+      "rating": 4.4
+    },
+    {
+      "product_id": "GHT011",
+      "product_title": "Aluminium Laptop Stand",
+      "product_image": "https://i.ibb.co/g9d0Mj2/81-CZGNZ-Kp-L-AC-SX679-removebg-preview-min-1.png",
+      "brand": "Normal",
+      "category": "Power Banks",
+      "price": 99,
+      "description": "The computer stand's anti-slip rubber pad prevents the laptop from slipping while not damaging the laptop's case.",
+      "specification": [
+        "10000mAh capacity",
+        "Dual USB output",
+        "Slim design"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "GHT012",
+      "product_title": "Gaming Keyboard Mouse",
+      "product_image": "https://i.ibb.co/Hq8Q3nC/7193x0-PNms-L-AC-SX679-removebg-preview-min-1.png",
+      "brand": "Normal",
+      "category": "Accessories",
+      "price": 149,
+      "description": " Enjoy the comfort and convenience of a full-size keyboard with F-keys and a numeric keypad",
+      "specification": [
+        "20000mAh capacity",
+        "Fast charging",
+        "Multiple device compatibility"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "GHT013",
+      "product_title": "MacBook Pro 16-inch",
+      "product_image": "https://i.ibb.co/SxJDZ3r/71z-MJ-j6-Nn-S-AC-UF350-350-QL80-removebg-preview.png",
+      "brand": "MacBook",
+      "category": "Laptops",
+      "price": 2499,
+      "description": "The 16-inch MacBook Pro with M1 Max chip is designed for the most demanding tasks, from video editing to machine learning.",
+      "specification": [
+        "16.2-inch Liquid Retina XDR display",
+        "Apple M1 Max chip",
+        "32GB RAM",
+        "1TB SSD storage"
+      ],
+      "availability": true,
+      "rating": 4.9,
+      "other_field": "Best for power users"
+    },
+    {
+      "product_id": "GHT014",
+      "product_title": "Apple 2023 MacBook Pro ",
+      "product_image": "https://i.ibb.co/Ms3zCch/61l-AGP5afp-L-AC-SX679-1-removebg-preview.png",
+      "brand": "MacBook",
+      "category": "Laptops",
+      "price": 1999,
+      "description": "The new 14-inch MacBook Pro with M1 Pro chip delivers exceptional speed and power for professional workloads.",
+      "specification": [
+        "14.2-inch Liquid Retina XDR display",
+        "Apple M1 Pro chip",
+        "16GB RAM",
+        "512GB SSD storage"
+      ],
+      "availability": false,
+      "rating": 4.8,
+      "other_field": "Perfect for creatives"
+    },
+    {
+      "product_id": "GHT015",
+      "product_title": "Laptop Pro 16",
+      "product_image": "https://i.ibb.co/zrcN6rL/111901-mbp16-gray-removebg-preview-min.png",
+      "brand": "MacBook",
+      "category": "Laptops",
+      "price": 1299,
+      "description": "Powerful laptop with 16-inch display and advanced graphics for high performance.",
+      "specification": [
+        "16-inch Retina display",
+        "Intel i9 processor",
+        "1TB SSD storage"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "other_field": "Top-rated for productivity"
+    }
+   
+  ]
